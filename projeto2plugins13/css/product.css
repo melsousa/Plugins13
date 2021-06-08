@@ -1,0 +1,59 @@
+body{
+background-color: #000;
+}
+
+.container {
+  max-width: 960px;
+}
+.imgmel{
+  border-radius:100px ;
+}
+
+                                          
+.letra{
+	color: white;
+	text-align: center;
+}
+
+
+
+ * Dummy devices (replace them with your own or something else entirely!)
+ */
+
+/*
+ * Extra utilities
+ */
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.flex-equal > * {
+  -ms-flex: 1;
+  flex: 1;
+}
+
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
+
+p{
+  color: white;
+}
+.cami{
+  border:50px;
+}
+
+.overflow-hidden {
+  background-image: url(../imagens/mel.jpg);
+  width: 100%;
+  height: 10%;
+  background-repeat: no-repeat;
+  position: absolute;
+ overflow: hidden;
+  top:50%;
+}

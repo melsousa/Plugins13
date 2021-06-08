@@ -1,0 +1,44 @@
+ body {
+      font-family: helvetica, arial;
+      padding-top: 40px;
+      background-color: #000;
+    }
+    .imgmel{
+  border-radius:100px ;
+}
+
+
+   
+.photo {
+   background-attachment: fixed;
+   background-position: 50% 0;
+   background-repeat: no-repeat;
+   height: 450px;
+  position: relative;
+   }
+.letra{
+  color: #00BFFF;
+  text-align: center;
+  }
+
+    
+.spring {
+   background-image: url(../imagens/ca.jpg);
+    }
+   .site-header {
+  background-color: rgba(0,0,0,0.9);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+  text-align: center;
+}
+.site-header a {
+  color:white ;
+  transition: ease-in-out color .15s;
+  text-align: center;
+
+}
+.site-header a:hover {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}

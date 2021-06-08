@@ -1,0 +1,171 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/form-validation.css" rel="stylesheet">
+    <link href="css/carousel.css" rel="stylesheet"> 
+
+
+    <!--Alertify-->
+    <link rel="stylesheet" href="Alertify/css/alertify.css">
+
+	<!-- include boostrap theme  -->
+	<link rel="stylesheet" href="Alertify/css/themes/bootstrap.css">
+
+	<script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="ajax.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/icheck.js "></script>
+    <script>
+      $('input').iCheck ({
+        checkboxClass: 'icheckbox_flat-green',
+        radioClass: 'iradio_flat'
+      });
+    </script>
+    <script>
+		$(document).ready(function(){
+		    $('[data-toggle="tooltip"]').tooltip();   
+		});
+	</script>
+		<!--Alertify-->
+	<script src="Alertify/alertify.min.js"></script>
+<script >
+	function Teste(){
+		alertify.alert('Enviado',function(){
+			alertify.success("Okay");
+		});
+	}
+</script>
+
+   
+</head>
+<header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top " style="background-color: rgba(0,0,0,0.7);">
+        <img  width="60px" height="60px" class="imgmel" src="imagens/logo.jpg"/>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="novo.html">Início </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="artista.html">Artistas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="form.html">Cadastro</a>
+            </li>
+          </ul>
+          <form class="form-inline mt-2 mt-md-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Pesquisa" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+          </form>
+        </div>
+      </nav>
+    </header>
+
+<body class="bg-dark">
+	<div class="container">
+      <center><div class="py-5 text-center">
+        <img class="d-block mx-auto mb-4" src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+        <h2 data-toggle="tooltip" title="Cadastro!">Cadastre-se agora...</h2>
+        <p class="lead">Tenha seu cadastro e escolha suas melhores músicas!</p>
+      </div>
+
+        <div class="col-md-8 order-md-1">
+          <h4 class="mb-3">Login</h4>
+          <form action="#" class="needs-validation" novalidate>
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="firstName" data-toggle="tooltip" title="Digite seu nome">Primeiro Nome</label>
+                <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="lastName" data-toggle="tooltip" title="Digite seu Sobrenome">Sobrenome</label>
+                <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="username" data-toggle="tooltip" title="Digite seu Nick desejado">Nome de Login</label>
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">@</span>
+                </div>
+                <input type="text" class="form-control" id="username" placeholder="Username" required>
+                <div class="invalid-feedback" style="width: 100%;">
+                  Your username is required.
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="email" data-toggle="tooltip" title="Digite seu Email desejado">Email <span class="text-muted">(Optional)</span></label>
+              <input type="email" class="form-control" id="email" placeholder="mel@example.com">
+              <div class="invalid-feedback">
+                Please enter a valid email address for shipping updates.
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="address" data-toggle="tooltip" title="Digite seu Endereço">Endereço</label>
+              <input type="text" class="form-control" id="address" placeholder=" Main St" required>
+            </div>
+            <div class="row">
+              <div class="col-md-5 mb-3">
+                <label for="country" data-toggle="tooltip" title="Escolha um País">País</label>
+                <select class="custom-select d-block w-100" id="country" required>
+                  <option value="">Escolha...</option>
+                  <option>Brasil</option>
+                </select>
+              </div>
+              <div class="col-md-4 mb-3">
+                <label for="state" data-toggle="tooltip" title="Escolha sua Cidade">Cidade</label>
+                <select class="custom-select d-block w-100" id="state" required>
+                  <option value="">Escolha...</option>
+                  <option>Ceará</option>
+                </select>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="zip"  data-toggle="tooltip" title="Digite seu Bairro">Bairro</label>
+                <input type="text" class="form-control" id="zip" placeholder="" required>
+              </div>
+            </div>
+            <hr class="mb-4">
+            <div">
+              <input type="checkbox">
+              <label >Aceitar contrato de licença</label>
+            </div>
+            <div>
+              <input type="checkbox">
+              <label >Quero receber informações por e-mail.</label>
+            </div>
+            <hr class="mb-4">
+            <button type="submit" onclick="Teste()" id="btn" class="btn-outline-primary" >Continue</button>
+            
+          </form>
+        </div>
+      </div>
+        <footer class="my-5 pt-5 text-muted text-center text-small">
+        <p class="mb-1">&copy; 2018 Spobrefy</p>
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="#">Privacidade</a></li>
+          <li class="list-inline-item"><a href="#">Sobre anúcios</a></li>
+          <li class="list-inline-item"><a href="#">Cookies</a></li>
+        </ul>
+      </footer>
+    </div>
+</center>
+</body>
+</html>

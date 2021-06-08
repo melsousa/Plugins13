@@ -1,0 +1,20 @@
+@font-face {font-family: 'Fjalla One';font-style: normal;font-weight: 100;src: local('Fjalla One'), local('FjallaOne-Regular'), url(http://themes.googleusercontent.com/static/fonts/fjallaone/v1/rxxXUYj4oZ6Q5oDJFtEd6hsxEYwM7FgeyaSgU71cLG0.woff) format('woff');}
+.fancyInput{ 
+  width:10%; 
+  font-size:20px; 
+  color:#9400D3;  
+  line-height:0.9; 
+  overflow:hidden;
+  text-align:left;
+  box-shadow:0 2px 0 rgba(75,0,130,.5), 0 2px 4px rgba(0,0,0,.2) inset, 0 0 12px rgba(255,255,255,.1); 
+  padding:8px 12px; 
+  background:rgba(0,0,110,.1); 
+  border-radius:20px; 
+}
+.fancyInput.textarea{ 
+  line-height:normal; 
+  font-size:40px; 
+  max-width:50%; 
+  min-height:60px; 
+  max-height:40%; 
+}

@@ -1,0 +1,5 @@
+﻿<img class="rounded-circle" src="imagens/ca.jpg" alt="Generic placeholder image" width="140" height="140">
+            <h2>Camilla Cabelo</h2>
+            <p>Karla Camila Cabello Estrabao (Cojímar, 3 de março de 1997),
+            mais conhecida como Camila Cabello, é uma cantora e compositora 
+            norte-americana de origem cubana.</p>Como artista principal, Cabello lançou quatro singles que entraram no top 20 da Billboard Hot 100: "I Know What You Did Last Summer" com Shawn Mendes, "Bad Things" com Machine Gun Kelly, Never Be the Same e Havana. Esse último single atingindo primeiro lugar simultaneamente com seu disco em primeira posição na Billboard 200.Em maio de 2017, Cabello lançou o single "Crying in the Club" e anunciou seu primeiro álbum solo, Camila que foi lançado em janeiro de 2018. Anunciou também a "Never Be the Same Tour", em 14 de fevereiro de 2018.
